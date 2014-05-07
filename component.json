@@ -13,6 +13,7 @@
     "components/Subtract.coffee",
     "components/Multiply.coffee",
     "components/Divide.coffee",
+    "components/Modulo.coffee",
     "components/Floor.coffee",
     "components/CalculateAngle.coffee",
     "components/CalculateDistance.coffee",
@@ -33,6 +34,7 @@
       "Compare": "components/Compare.coffee",
       "CountSum": "components/CountSum.coffee",
       "Divide": "components/Divide.coffee",
+      "Modulo": "components/Modulo.coffee",
       "Floor": "components/Floor.coffee",
       "Multiply": "components/Multiply.coffee",
       "Subtract": "components/Subtract.coffee"
