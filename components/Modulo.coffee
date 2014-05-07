@@ -16,7 +16,7 @@ class Modulo extends noflo.Component
 
 
     @inPorts.value.on 'data', (data) =>
-      @outPorts.result.send Math.floor data/@divider
+      @outPorts.result.send Math.floor(data / @divider)
       @outPorts.remainder.send value % @divider
 
     @inPorts.divider.on 'data', (data) =>
